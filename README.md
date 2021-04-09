@@ -17,3 +17,5 @@ Adding subheader and new line of code potentially.
 3- git commit -m = This command will commit the saved changes to the github repository. 
     '-m' after this inside "" we write the title of the commit.
     '-m' if we want to add the description of that commit we then add another , -m "description of the commit". 
+
+4- git push origin master = this is something I have no idea what it is.
