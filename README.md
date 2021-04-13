@@ -34,3 +34,8 @@ Git branching is a technique where we create a branch at a certain point of our 
     ##Changing branches
 
 7- git checkout branchName = this command will switch between branches.
+
+    ##Merging branches
+
+8- git diff featureBreanchName = To merge a feature branch and main branch we use this command.
+9- git merge featureBranchName = We can also use this command to merge but then we have to make a PR (I don't know what it means)
