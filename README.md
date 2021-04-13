@@ -9,7 +9,7 @@ After deleting the previous line Now I am adding a new line
 
 Adding subheader and new line of code potentially.
 
-1- git staus = this command will show us all the untracked or saved  files that we have created but not saved or commited, something like that.
+1- git status = this command will show us all the untracked or saved  files that we have created but not saved or commited, something like that.
 
 2- git add . = this command will tell the git to track all the untracked files and save them. 
     '.' the period here is used for all the files. Alternatively we could write the name of the specific file that we want to commit.
