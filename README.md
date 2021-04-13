@@ -1,11 +1,11 @@
-#Demo
+    #Demo
 
 Description:
 I am learning to use git and github that's why this demo-repo thingy is being made. So I hope it all goes well.
 
 After deleting the previous line Now I am adding a new line
 
-##Subheader
+    ##Subheader
 
 Adding subheader and new line of code potentially.
 
@@ -19,3 +19,18 @@ Adding subheader and new line of code potentially.
     '-m' if we want to add the description of that commit we then add another , -m "description of the commit". 
 
 4- git push origin master = this is something I have no idea what it is.
+
+    ##GIT BRANCHING
+    
+Git branching is a technique where we create a branch at a certain point of our repository progress. This is separate from the main branch and we merge them later  at a point where we want it to merge.
+    This is used when we want to develope a feature in our app but we don't want to add it to our main branch/ production app unless it is completely bug free. So we develope it on the side and then merge it into our main branch.
+    
+5- git branch = this command will show you the total branches in the repository and there will be a '*' before the name of the branch in which you currently are.
+
+    ##Creating a new branch
+
+6- git checkout -b description/name = git checkout is actually the command that is used to switch between branches, but when we add -b it means create a new branch. and add name as feature/description.
+
+    ##Changing branches
+
+7- git checkout branchName = this command will switch between branches.
