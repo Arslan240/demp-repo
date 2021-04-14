@@ -39,3 +39,21 @@ Git branching is a technique where we create a branch at a certain point of our 
 
 8- git diff featureBreanchName = To merge a feature branch and main branch we use this command.
 9- git merge featureBranchName = We can also use this command to merge but then we have to make a PR (I don't know what it means)
+
+    ##Creating a Pull request
+
+
+
+
+    ##Pulling the merged branch changes to the local editor
+
+10- git pull = we can use this command to pull down the changes to our local machine. And our main branch on the machine will be upto date.
+
+
+    ##Deleting branches 
+
+11- git branch -d branchName = By using this command we can delete the branches that have already been merged to the main branch
+
+    ##Merging conflicts
+
+12- Many times it happens that more than one people are working on same issues and creates a file for that issue. But we can merge one branch to the main. So we have to select manually which file to keep. So for that purpose we have git command.
